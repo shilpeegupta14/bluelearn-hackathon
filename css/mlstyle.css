@@ -1,0 +1,58 @@
+.area{
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+}
+
+.vdo{
+  width: 40%;
+}
+
+.vdo iframe{
+  width: 100%;
+}
+
+.ide{
+  width: 58%;
+  padding-left: 4%;
+}
+
+.ide2{
+  height: 80vh;
+}
+
+.notice{
+  display:none;
+}
+
+button{
+  margin: auto;
+  color: white;
+  background-color: #f2d279;
+  border-radius: 23px;
+  transition: 0.3s;
+  width: 100%;
+  margin-top: 3%;
+  padding: 0.5%;
+}
+
+button:hover{
+  background-color: #edb74d;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .vdo{
+    width: 100%;
+  }
+  .ide{
+    display: none;
+  }
+  .ide2{
+    display: none;
+  }
+  .notice{
+    display: block;
+    text-align: center;
+  }
+}
